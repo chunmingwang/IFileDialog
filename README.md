@@ -6,8 +6,12 @@ Example for VisualFBEditor
 1. 使用 Windows Com 接口 IFileOpenDialog 创建现代化的文件选择对话框
 2. 支持多文件选择（FOS_ALLOWMULTISELECT）
 3. 添加自定义控件组：
+
+```
 1). 换行符格式选择：Windows (CRLF)、Linux (LF)、Mac OS (CR)
 2). 文本编码选择：ASCII、UTF-8、Unicode (UTF-16 LE)、Unicode Big Endian
+```
+
 5. 实现完整的 IFileDialogEvents 和 IFileDialogControlEvents 事件处理机制
 6. 提供详细的事件日志输出，用于调试和监控对话框行为
 7. 支持设置初始路径、文件类型过滤器等标准功能
@@ -18,8 +22,12 @@ This FreeBASIC code implements an advanced file open dialog with the following m
 1. Utilizes the Windows COM interface IFileOpenDialog to create a modern file selection dialog
 2. Supports multiple file selection (FOS_ALLOWMULTISELECT)
 3. Adds custom control groups:
+
+```
 1). Line ending format selection: Windows (CRLF), Linux (LF), Mac OS (CR)
 2). Text encoding selection: ASCII, UTF-8, Unicode (UTF-16 LE), Unicode Big Endian
+```
+
 4. Implements complete IFileDialogEvents and IFileDialogControlEvents event handling mechanisms
 5. Provides detailed event logging output for debugging and monitoring dialog behavior
 6. Supports standard functions such as setting initial paths and file type filters
